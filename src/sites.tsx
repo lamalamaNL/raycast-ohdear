@@ -12,7 +12,7 @@ export default function Command() {
   return (
     <List isLoading={isLoading}>
       <EmptyView />
-      {(data.data || []).map((site) => (
+      {((data as any).data || []).map((site: any) => (
         <List.Item
           key={site.id}
           icon={site.summarized_check_result === "succeeded" ? Icon.Checkmark : Icon.Circle}
