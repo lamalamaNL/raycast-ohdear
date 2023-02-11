@@ -16,6 +16,13 @@
       "subtitle": "Oh Dear",
       "description": "Show all sites",
       "mode": "view"
+    },
+    {
+      "name": "sites-add",
+      "title": "Add Site",
+      "subtitle": "Oh Dear",
+      "description": "Add a new site",
+      "mode": "view"
     }
   ],
   "preferences": [
@@ -29,7 +36,8 @@
   ],
   "dependencies": {
     "@raycast/api": "^1.47.3",
-    "@raycast/utils": "^1.4.16"
+    "@raycast/utils": "^1.4.16",
+    "node-fetch": "^3.3.0"
   },
   "devDependencies": {
     "@types/node": "18.8.3",
