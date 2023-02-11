@@ -18,7 +18,7 @@ export default function Command() {
           icon={site.summarized_check_result === "succeeded" ? Icon.Checkmark : Icon.Circle}
           title={site.label}
           actions={
-            <ActionPanel title="#1 in raycast/extensions">
+            <ActionPanel title="Oh Dear">
               <Action.OpenInBrowser url={`https://ohdear.app/sites/${site.id}/active-checks`} />
             </ActionPanel>
           }
